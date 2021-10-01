@@ -11,10 +11,10 @@ Detail service has been developed on Ruby
 ## How to run with Docker
 
 ```bash
-# Build Docker Image for rating service
+# Build Docker Image for detail service
 docker build -t details .
 
-# Run ratings service on port 8081
+# Run details service on port 8081
 docker run -d --name details -p 8081:8081 details
 ```
 
