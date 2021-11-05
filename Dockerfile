@@ -4,6 +4,6 @@ WORKDIR /usr/src/app/
 
 COPY . /usr/src/app/ 
 
-EXPOSE 8081
+EXPOSE 9080
 
-CMD ["ruby", "/usr/src/app/details.rb", "8081"]
+CMD ["ruby", "/usr/src/app/details.rb", "9080"]
