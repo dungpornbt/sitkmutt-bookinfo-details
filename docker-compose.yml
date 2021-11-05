@@ -1,6 +1,6 @@
 services:
   details:
     build: .
-    image: ghcr.io/dungpornbt/bookinfo-details:dev
+    image: {{ .Values.details.image }}:{{ .Values.details.tag }}
     ports:
       - "8081:8081"
